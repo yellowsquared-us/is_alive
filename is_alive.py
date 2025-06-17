@@ -11,10 +11,11 @@ def main() -> list[str]:
 
 
 if __name__ == "__main__":
-    main.from_source(
-        source=str(Path(__file__).parent),
-        entrypoint="is_alive.py:main",
-    ).deploy(
-        name="is_alive",
-        work_pool_name="api_status"
-    )
+    # main.from_source(
+    #     source=str(Path(__file__).parent),
+    #     entrypoint="is_alive.py:main",
+    # ).deploy(
+    #     name="is_alive",
+    #     work_pool_name="api_status"
+    # )
+    main()
